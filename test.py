@@ -1,1 +1,2 @@
-print("this is were i do my work")
+print(name)
+name = "dean"
