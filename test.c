@@ -1,8 +1,7 @@
 
 
 int main(void) {
-    char name[50]; // Buffer to store the user's name, adjust size as needed
-
+    char name[50]; 
     // Prompt the user for their name
     printf("What's your name? ");
 
