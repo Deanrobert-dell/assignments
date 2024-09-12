@@ -8,6 +8,7 @@ int main(void){
     printf("how much do yor utilities cost ");
     scanf("%s", utilities);
     printf("youmake %s", income);
-    float 
+    float spending[] = (float) income - (float) utilities;
+    printf ("%f" ,spend);
     return 0;
 }
