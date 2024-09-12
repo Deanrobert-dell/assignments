@@ -9,6 +9,6 @@ int main(void){
     scanf("%s", utilities);
     printf("youmake %s", income);
     float spending[] = (float) income - (float) utilities;
-    printf ("%f" ,spend);
+    printf ("%f" ,spending);
     return 0;
 }
