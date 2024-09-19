@@ -1,3 +1,3 @@
 print("insert name")
 name=input()
-print("<<<",name,">>>")
+print("<<<"&name&">>>")
