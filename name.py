@@ -1,3 +1,3 @@
-print("insert name")
-name=input()
-print("<<<"&name&">>>")
+name = input("Enter your name: ")
+decoratedName = f"*.* {name} *.*"
+print(decoratedName)
