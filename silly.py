@@ -1,23 +1,7 @@
-
-
-
-    # All the questions that the program asks the user
+# All inputs
 noun = input("Choose a noun: ")
-p_noun = input("Choose a plural noun: ")
+p_verb = input("Choose a verb: ")
 noun2 = input("Choose a noun: ")
-place = input("Name a place: ")
-adjective = input("Choose an adjective (Describing word): ")
-noun3 = input("Choose a noun: ")
+# Displays the story based input
 
-# Displays the story based on the users input
-    print ("------------------------------------------")
-    print ("Be kind to your",noun,"- footed", p_noun)
-    print ("For a duck may be somebody's", noun2,",")
-    print ("Be kind to your",p_noun,"in",place)
-    print ("Where the weather is always",adjective,".")
-    print ()
-    print ("You may think that is this the",noun3,",")
-    print ("Well it is.")
-    print ("------------------------------------------")
-
-    
+print ("lick your",noun,"and it will", p_verb,"you, use your",noun2,"to block it")
