@@ -14,5 +14,15 @@ int main() {
 
     printf("lick your %s and it will %s you, use your %s to block it\n", noun, p_verb, noun2);
 
+    printf("Choose a noun: ");
+    scanf("%s", noun);
+    printf("Choose a verb: ");
+    scanf("%s", p_verb);
+    printf("Choose a noun: ");
+    scanf("%s", noun2);
+
+    printf("lick your %s and it will %s you, use your %s to block it\n", noun, p_verb, noun2);
+
     return 0;
 }
+
