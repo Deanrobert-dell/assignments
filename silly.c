@@ -2,7 +2,7 @@
 
 int main() {
     char noun[100];
-    char p_verb[100];
+    char p_verb[99];
     char noun2[100];
 
     printf("Choose a noun: ");
