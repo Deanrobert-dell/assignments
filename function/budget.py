@@ -33,6 +33,4 @@ def main():
     percent("expenses", expenses, income)
     percent("spend", spend, income)
 
-if __name__ == "__main__":
-    main()
 
