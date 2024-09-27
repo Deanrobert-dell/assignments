@@ -1,36 +1,41 @@
-def input_value(type):
-    var = float(input(f"monthly {type}:\n"))
+#huh 
+def input_value(huh):
+    # Ask the user for input
+    var = float(input(f"Enter your monthly {huh}: "))
     return var
 
-def percent(type, amount, income):
-    per = (amount / income) * 100
-    print(f"your {type} is {per:.0f}% of your income.")
+def percent(type, value, income):
+    percentage = (value / income) * 100
+    print(f"yourer {type} as percent : {percentage:.0f}%")
 
 def main():
-    print("Hello, and welcome to your financial calculator!")
+    print(" welcome to your finncial calculator")
+    
     income = input_value("income")
-    rent = input_value("rent")
-    utilities = input_value("utilities")
     groceries = input_value("groceries")
+    utilities = input_value("utilities")
+    rent = input_value("rent")
     transportation = input_value("transportation")
     
     # Calculations
     expenses = rent + utilities + groceries + transportation
-    savings = income * 0.20  # 20% savings
+    savings = income * 0.20  # MOOONEEEYYYY
     spend = income - expenses - savings
     
-    # Output results
-    print(f"Your monthly income is ${income:.2f}")
-    print(f"Your monthly expenses are ${expenses:.2f}")
-    print(f"Your monthly savings is ${savings:.2f}")
-    print(f"Your monthly spending money is ${spend:.2f}")
+    # Output reslts (i believe)
+    print(f"\n\nYour monthly income is: ${income:.2f}")
+    print(f"Your monthly expenses are: ${expenses:.2f}")
+    print(f"Your monthly savings are: ${savings:.2f}")
+    print(f"Your monthly spending money is: ${spend:.2f}")
     
-    percent("rent", rent, income)
-    percent("utilities", utilities, income)
-    percent("groceries", groceries, income)
+    # Display percentages (i hope)
+    percent("spend", spend, income)
     percent("transportation", transportation, income)
+    percent("groceries", groceries, income)
+    percent("utilities", utilities, income)
     percent("savings", savings, income)
     percent("expenses", expenses, income)
-    percent("spend", spend, income)
+    percent("rent", rent, income)
 
-
+# return (i think)
+main()
