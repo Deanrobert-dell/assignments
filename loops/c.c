@@ -1,4 +1,1 @@
-int i;
-int main (){
-    printf("%s\n")
-}
+#include <stdio.h
